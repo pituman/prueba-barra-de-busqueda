@@ -10,18 +10,18 @@
 <body>
     <form id="main" v-cloak>
 
-    <img src="http://statics.laliga.es/img/favicons/favicon.ico"><div class="bar">
+    <div><img src="http://statics.laliga.es/img/favicons/favicon.ico"></div><div class="bar">
         <!-- Create a binding between the searchString model and the text field -->
 
-        <input type="text" v-model="searchString" placeholder="Selecciona un equipo" />
+        <input type="text" v-model="searchString" placeholder="Selecciona un equipo"/>
     </div>
 
     <ul>
         <!-- Render a li element for every entry in the computed filteredArticles array. -->
 
         <li v-for="article in filteredArticles">
-            <a v-bind:href="article.url"><img v-bind:src="article.image" /></a>
-            <p>{{article.title}}</p>
+            <a v-bind:href="article.url"><img v-bind:src="article.image" />
+            <p>{{article.title}}</p></a>
         </li>
     </ul>
 

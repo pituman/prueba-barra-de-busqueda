@@ -5,9 +5,9 @@ var demo = new Vue({
         
         articles: [
             {
-                "title": "Alavés",
+                "title": "Deportivo Alavés",
                 "url": "https://www.deportivoalaves.com/",
-                "image":"http://www.lafutbolteca.com/wp-content/uploads/2009/11/ALAVES-150x150.jpg"
+                "image":"http://www.lafutbolteca.com/wp-content/uploads/2009/11/ALAVES-150x150.jpg",
             },
             {
                 "title": "Athletic Club de Bilbao",
